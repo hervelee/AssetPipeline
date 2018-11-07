@@ -1,110 +1,15 @@
-body {
-	height:100%;
-	font-family: arial , sans-serif;
-	margin: 0;
-	width: auto;
-	height: auto;
-}
-header{
-
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-}
-
-a {
-	text-decoration: none;
-}
-header div{
-	display: flex;
-	flex-direction: column;
-	align-items: : center;
-}
-.btn_blue{
-  background: #4887ef; 
-  margin-right: 25px;
-  padding: 10px 20px 10px 20px;
-  border-radius: 3px; 
-  font-weight: bold;
-  color: white;
-}
-.one{
-	display: flex;
-	flex-direction: row;
-	height: 45px;	
-}
-
-.navbtn{
-
-	margin: 15px;
-}
-.google{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top:200px;
-	margin-bottom: 400px; 
-}
-
-footer:hover {
-	color:gray;
-	display: flex;
-	flex-direction: column;
-	background-color:#F2F2F2;
-	border-top: 1.5px solid;
-	border-color: #E4E4E4;
-	line-height: 40px;
-	bottom: 0;
-}
-
-.stage{
-	padding-left: 19px;
-	height: 30px;
-	border-bottom: 1.5px solid;
-	border-color: #E4E4E4;
-}
-.bottom{
-	display: flex;
-	justify-content: space-between;
-	height: 30px;
-
-}
-.left{
-	display: flex;
-	justify-content: space-around;
-	width: 300px;
-
-	
-}
-
-.right{
-	display: flex;
-	justify-content: space-around;
-	width: 500px;
-	
-}
-
-#cherche {
-
-	display: flex;
-	border: solid;
-	border-width: 0.8px;
-	border-color: #c2c2c2;
-	max-width: 585px;
-	box-shadow: 3px 3px 10px #DADADA;
-}
-
-.boutton 
-{
-	display: flex;
-	padding-top: 30px;
-}
-#cherche input {
-	padding-top: 15px;
-	width: 500px;
-	border: none;
-	padding: 10px;
-	font-size: 1.05em;
-
-
-}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
